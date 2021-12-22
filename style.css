@@ -1,0 +1,94 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,44,247,1) 0%, rgba(0,212,255,0.07326680672268904) 71%);
+}
+.body{
+    width: 50px;
+    height: 120px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,44,247,1) 0%, rgba(255,51,0,0.989233193277311) 0%, rgba(255,51,0,0.989233193277311) 75%);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin: 50px 100px;
+}
+.body2{
+    width: 50px;
+    height: 130px;
+    background-color: white;
+    margin: -130px 100px;
+    display: flex;
+}
+.window{
+    width: 10px;
+    height: 10px;
+    border: 10px solid rgb(14, 10, 82);
+    border-radius: 100px;
+    margin: 50px 16px;
+    background-color: blue;
+}
+.qanotlar{
+    display: flex;
+}
+.leftSide{
+    width: 30px;
+    height: 100px;
+    background-color: red;
+    margin: 30px 70px;
+}
+.rightSide{
+    width: 30px;
+    height: 100px;
+    background-color: red;
+    margin: 30px -20px;
+}
+.qanot{
+    width: 30px;
+    height: 20px;
+    background-color: blue;
+    margin: -20px 0px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.qanot2{
+    width: 30px;
+    height: 20px;
+    background-color: blue;
+    margin: -20px 0px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.down{
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    margin: -30px 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.fair{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 0);
+    margin: 30px 106px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    animation: fair 10s 2s forwards infinite;
+}
+    
+.container{
+    display: block;
+    animation: rocket 3s 2s forwards infinite;
+}
+@keyframes rocket{
+   100%{
+       transform: rotate(360deg);
+   } 
+}
+button{
+    width:170px;
+    height:30px;
+    background-color:black;
+    color:white;
+    margin:30px 50px;
+    border:none;
+}
